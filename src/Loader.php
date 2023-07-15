@@ -10,7 +10,9 @@ class Loader extends PluginBase {
     final function onEnable(): void
     {
 final function onCommand(CommandSender $sender, Command $command, string $value, array $args): bool {
-$this->BedwarsCommand();
+switch ($command->getName()) {
+            case "bedwars":
+    $this->BedwarsCommand();
 }
     }
 }
