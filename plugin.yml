@@ -1,0 +1,8 @@
+---
+name: EzBedwars
+author: EzMinecraftPlugins
+version: 1.0.0
+main: EzMinecraftPlugins\EzBedwars\Loader
+api: 5.0.0
+src-namespace-prefix: EzMinecraftPlugins\EzBedwars
+...
