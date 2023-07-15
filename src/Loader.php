@@ -5,10 +5,12 @@ declare(strict_types=1);
 namespace EzMinecraftPlugins\EzBedwars;
 
 use pocketmine\plugin\PluginBase;
-
+use EzBedwars\commands\BedwarsCommand;
 class Loader extends PluginBase {
     final function onEnable(): void
     {
-        # register command /bedwars
+final function onCommand(CommandSender $sender, Command $command, string $value, array $args): bool {
+$this->BedwarsCommand();
+}
     }
 }
