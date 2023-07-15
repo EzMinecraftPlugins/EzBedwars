@@ -9,6 +9,7 @@ use EzBedwars\commands\BedwarsCommand;
 class Loader extends PluginBase {
     final function onEnable(): void
     {
+    }
 final function onCommand(CommandSender $sender, Command $command, string $value, array $args): bool {
 if (isset($args[0])) {
             switch ($args[0]) {
@@ -32,5 +33,5 @@ $sender->sendMessage("Error: No Perm");
                     break;
             }
         }
-    }
-}
+    
+
